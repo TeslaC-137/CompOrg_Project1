@@ -9,5 +9,10 @@ main:
 	syscall
 	addi $a0, $a0, -28075
 	syscall
+	li $v0, 11
+	addi $a0, $a0, -50
+	syscall
+	addi $a0, $a0, 70
+	syscall
 	li $v0, 10
 	syscall
